@@ -9,10 +9,9 @@ export class App extends Component{
 
     render(){
         return(
-            <Fragment>  
-                <Header />
-            </Fragment>
             
+            <Header />
+        
         );
     }
 

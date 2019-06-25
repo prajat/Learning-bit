@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Fragment } from 'react';
+// import { Fragment } from 'react';
 
 export class Header extends Component{
     constructor(props){
@@ -10,7 +10,7 @@ export class Header extends Component{
     render(){
         return(
 
-            <Fragment>
+            <div>
                 <header className="header">
                     <div className="header__logo">
                         <img className="header__logo__img" src="../src/assets/images/logo.png" /> 
@@ -27,7 +27,7 @@ export class Header extends Component{
                     </ul>
 
                 </header>
-            </Fragment>
+            </div>
             
 
         );

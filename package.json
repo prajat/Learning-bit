@@ -35,7 +35,9 @@
     "react-dom": "^16.8.1"
   },
   "bit": {
-    "env": {},
+    "env": {
+      "compiler": "bit.envs/compilers/babel@7.0.1"
+    },
     "componentsDefaultDirectory": "components/{name}",
     "packageManager": "npm"
   }
