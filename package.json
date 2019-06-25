@@ -33,5 +33,10 @@
   "dependencies": {
     "react": "^16.8.1",
     "react-dom": "^16.8.1"
+  },
+  "bit": {
+    "env": {},
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm"
   }
 }
