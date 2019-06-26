@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
- import { Fragment } from 'react';
+import { Fragment } from 'react';
+import './sass/index.scss';
 
 export class Header extends Component{
     constructor(props){
