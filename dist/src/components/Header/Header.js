@@ -49,7 +49,9 @@ function (_Component) {
         className: "header__logo"
       }, _react["default"].createElement("img", {
         className: "header__logo__img",
-        src: "./logo.png"
+        src: "https://i.ibb.co/z7pQG4p/spotify-logo-png-7078.png",
+        alt: "spotify-logo-png-7078",
+        border: "0"
       }), _react["default"].createElement("h1", {
         className: "header__logo__text"
       }, "Rapify")), _react["default"].createElement("ul", {
