@@ -14,7 +14,7 @@ class Header extends Component{
             <Fragment>
                 <header className="header">
                     <div className="header__logo">
-                        <img className="header__logo__img" src="./logo.png" /> 
+                        <img className="header__logo__img" src="https://i.ibb.co/z7pQG4p/spotify-logo-png-7078.png" alt="spotify-logo-png-7078" border="0"/>
                         <h1 className="header__logo__text">Rapify</h1>
                     </div>
 
