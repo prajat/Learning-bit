@@ -27,7 +27,6 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
-// import { Fragment } from 'react';
 var Header =
 /*#__PURE__*/
 function (_Component) {
@@ -42,7 +41,7 @@ function (_Component) {
   _createClass(Header, [{
     key: "render",
     value: function render() {
-      return _react["default"].createElement("div", null, _react["default"].createElement("header", {
+      return _react["default"].createElement(_react.Fragment, null, _react["default"].createElement("header", {
         className: "header"
       }, _react["default"].createElement("div", {
         className: "header__logo"
