@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import { Fragment } from 'react';
-import './sass/index.scss';
+import './styles.scss';
 
-export class Header extends Component{
+class Header extends Component{
     constructor(props){
         super(props);
         
@@ -14,7 +14,7 @@ export class Header extends Component{
             <Fragment>
                 <header className="header">
                     <div className="header__logo">
-                        <img className="header__logo__img" src="./assets/images/logo.png" /> 
+                        <img className="header__logo__img" src="./logo.png" /> 
                         <h1 className="header__logo__text">Rapify</h1>
                     </div>
 
@@ -34,3 +34,4 @@ export class Header extends Component{
         );
     }
 }
+export default Header;
