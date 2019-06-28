@@ -73,7 +73,11 @@ function (_Component) {
         className: "navbar__items"
       }, _react["default"].createElement("a", {
         className: "navbar__link"
-      }, "Log in")), _react["default"].createElement("li", {
+      }, "Log-in")), _react["default"].createElement("li", {
+        className: "navbar__items"
+      }, _react["default"].createElement("a", {
+        className: "navbar__link"
+      }, "Buy")), _react["default"].createElement("li", {
         className: "navbar__items"
       }, _react["default"].createElement("a", {
         className: "navbar__link"

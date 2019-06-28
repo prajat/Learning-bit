@@ -23,6 +23,7 @@ class Header extends Component{
                         <li className="navbar__items"><a className="navbar__link">Help</a></li>
                         <li className="navbar__items"><a className="navbar__link">Download</a></li>
                         <li className="navbar__items"><a className="navbar__link">Log-in</a></li>
+                        <li className="navbar__items"><a className="navbar__link">Buy</a></li>
                         <li className="navbar__items"><a className="navbar__link">Sign up</a></li>
 
                     </ul>
