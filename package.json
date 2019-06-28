@@ -40,6 +40,13 @@
       "compiler": "bit.envs/compilers/babel@7.0.1"
     },
     "componentsDefaultDirectory": "components/{name}",
-    "packageManager": "npm"
+    "packageManager": "npm",
+    "overrides": {
+      "prajat.spotify-header-navbar/header": {
+        "env": {
+          "compiler": "bit.envs/compilers/babel@7.0.1"
+        }
+      }
+    }
   }
 }
