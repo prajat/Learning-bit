@@ -32,7 +32,6 @@
   },
   "dependencies": {
     "@bit/dhruv610.navbar.navbar": "0.0.3",
-    "@bit/prajat.movieapp-tutorial.hero": "0.0.1",
     "react": "^16.8.1",
     "react-dom": "^16.8.1"
   },
